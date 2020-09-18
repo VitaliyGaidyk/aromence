@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial Regular', sans-serif;
+    background: #FFFFFF;
+
+}
+
+.container {
+    border-top: 1px solid #C4C4C4;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+button:active,
+button:focus {
+    outline: none !important;
+    border: none;
+    cursor: pointer;
+}
+
+$red:#FD383E;
