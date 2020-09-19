@@ -30,12 +30,17 @@ $(function () {
         slidesToScroll: 1,
         arrows: true,
         vertical: true,
-        // autoplay: true,
-        // autoplaySpeed: 2000,
         verticalSwiping: true,
         dots: false,
         nextArrow: '<img class="slick-next slick-arrow" src="images/svg/arrow-bottom.svg" alt="">',
         prevArrow: '<img class="slick-prev slick-arrow" src="images/svg/arrow-top.svg" alt="">',
+        responsive: [{
+            breakpoint: 800,
+            settings: {
+                arrows: false,
+                vertical: true
+            }
+        }, ]
 
     });
 
