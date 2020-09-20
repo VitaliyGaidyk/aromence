@@ -43,6 +43,16 @@ $(function () {
         }, ]
 
     });
+    $('.nav-toggle').on('click', function (e) {
+        e.preventDefault();
+        var toggle = $(this).add('.nav');
+        toggle.toggleClass('active');
+    });
+    $('.nav-toggle__bottom').on('click', function (e) {
+        e.preventDefault();
+        var toggle = $(this).add('.nav__bottom');
+        toggle.toggleClass('active');
+    });
 
     var btn = $('.btn');
 

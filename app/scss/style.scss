@@ -427,10 +427,27 @@
 
 .footer {
     &-wrapper {
+        // display: flex;
+        // justify-content: space-around;
+        margin-bottom: 70px;
+        // flex-direction: column;
+    }
+
+    .footer-menu__wrapper {
         display: flex;
         justify-content: space-around;
-        margin-bottom: 70px;
+    }
 
+    .footer-copyright {
+        display: none;
+    }
+
+    .footer-nav__wrapper {
+        display: none;
+    }
+
+    .footer-nav__logo {
+        display: none;
     }
 
     &-menu {
@@ -450,7 +467,6 @@
         margin: 0;
         padding-left: 80px;
 
-
         span {
             font-size: 18px;
             line-height: 21px;
@@ -462,7 +478,6 @@
 
     &-form {
         display: flex;
-        align-items: flex-start;
         padding-left: 7px;
 
         &__title {
@@ -516,7 +531,6 @@
             text-align: right;
             color: #333333;
             align-items: flex-start;
-
         }
 
         &__phone {
